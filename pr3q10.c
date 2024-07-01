@@ -8,13 +8,14 @@ int largeNumber(int x, int y, int z) {
         if (x > z) {
             return x; // x is the largest
         }
-        // If the above condition is not true, check else if y is greater than z
-        else if (y > z) {
-            return y; // y is the largest
-        } else {
-            return z; // z is the largest
-        }
     }
+    // If the above condition is not true, check if y is greater than z
+    if (y > z) {
+        return y; // y is the largest
+    } else {
+        return z; // z is the largest
+    }
+    
 }
 
 int main() {
@@ -34,7 +35,7 @@ int main() {
     scanf("%d", &c);
 
     // Call the largeNumber function and print the largest number
-    printf("%d", largeNumber(a, b, c));
+    printf(" Large Number is:- %d", largeNumber(a, b, c));
     
     
     return 0;
