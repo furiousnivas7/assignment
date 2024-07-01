@@ -6,7 +6,7 @@ void Calculate(int x, int y){
     // Calculate the sum of x and y
     int sum = x + y;
     
-    // Declare variable to store the difference
+    // Declare variable 
     int sub;
 
     // Calculate the difference between x and y
@@ -28,7 +28,7 @@ void Calculate(int x, int y){
 }
 
 int main(){
-    // Declare variables to store user input
+    // Declare variable
     int a, b;
     
     // asked to enter the first number
@@ -39,7 +39,7 @@ int main(){
     printf("Enter 2nd number: ");
     scanf("%d", &b);
 
-    // call calc Function
+    // call Calculate Function
     Calculate(a, b);
     
     return 0; 

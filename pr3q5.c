@@ -2,56 +2,56 @@
 #include <stdio.h>
 
 // Function to calculate the perimeter and area of a square
-void SqrDm(int x){
+void SquareDm(int x){
     // Calculate the perimeter of the square
-    int PS = 4 * x; // Perimeter of Square
+    int PRIMATER_SQUARE = 4 * x; // Perimeter of Square
     
     // Calculate the area of the square
-    int AS = x * x; // Area of Square
+    int AREA_SQUARE = x * x; // Area of Square
 
     // Print the perimeter of the square
-    printf("Perimeter of Square : %d", PS);
+    printf("Perimeter of Square : %d", PRIMATER_SQUARE);
     
     // Print the area of the square
-    printf("\nArea of Square : %d", AS); 
+    printf("\nArea of Square : %d", AREA_SQUARE); 
 }
 
 // Function to calculate the perimeter and area of a rectangle
-void RecDm(int y, int z){
+void RectangleDm(int y, int z){
     // Calculate the perimeter of the rectangle
-    int PR = 2 * y + 2 * z; // Perimeter of Rectangle
+    int RECTANGLE_PRIMATER = 2 * y + 2 * z; // Perimeter of Rectangle
     
     // Calculate the area of the rectangle
-    int AR = y * z; // Area of Rectangle 
+    int RECTANGLE_AREA = y * z; // Area of Rectangle 
 
     // Print the perimeter of the rectangle
-    printf("\nPerimeter of Rectangle : %d", PR); 
+    printf("\nPerimeter of Rectangle : %d", RECTANGLE_PRIMATER); 
     
     // Print the area of the rectangle
-    printf("\nArea of Rectangle : %d", AR);
+    printf("\nArea of Rectangle : %d", RECTANGLE_AREA);
 } 
 
 int main(){
-    // Declare variables to store the user's input
+    // Declare variables 
     int a, b, c;
     
-    // Prompt the user to enter the length of the square
+    // asked to enter the length of the square
     printf("Enter length of square: ");
     scanf("%d", &a);
     
-    // Prompt the user to enter the length of the rectangle
+    // asked to enter the length of the rectangle
     printf("Enter length of rectangle: ");
     scanf("%d", &b);
     
-    // Prompt the user to enter the width of the rectangle
+    // asked to enter the width of the rectangle
     printf("Enter width of rectangle: ");
     scanf("%d", &c);
 
-    // Call the SqrDm function to calculate and print the dimensions of the square
-    SqrDm(a); // Square Dimension
+    // Call the SquareDm function to calculate and print the dimensions of the square
+    SquareDm(a); // Square Dimension
     
-    // Call the RecDm function to calculate and print the dimensions of the rectangle
-    RecDm(b, c); 
+    // Call the RectangleDm function to calculate and print the dimensions of the rectangle
+    RectangleDm(b, c); 
     
    
     return 0;

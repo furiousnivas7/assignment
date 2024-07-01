@@ -26,6 +26,6 @@ int main() {
     scanf("%d", &b);
 
     // Call the largeNo function and print the larger number
-    printf("%d", largeNumber(a, b));
+    printf("Large Number is:-%d", largeNumber(a, b));
     return 0;
 }

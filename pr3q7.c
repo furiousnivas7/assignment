@@ -10,10 +10,10 @@ void AddandAvg(float x, float y){
     float avg = sum / 2;
 
     // Print the total sum
-    printf("Total is : %.2f", sum);
+    printf("Total is :- %.2f", sum);
     
     // Print the average
-    printf("\nAverage is: %.2f", avg);
+    printf("\nAverage is:- %.2f", avg);
 }
 
 int main(){
